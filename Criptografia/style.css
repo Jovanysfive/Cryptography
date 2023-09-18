@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(109, 0, 0, 0.738);
+}
+#txtt{
+    display: flex;
+    justify-content: center; /* Alinhar horizontalmente */
+    align-items: center; /* Alinhar verticalmente */
+    height: 400px;
+    width: 100%;
+    flex-direction: column;
+    gap: 15px;
+}
+.btn{
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+    background-color: rgba(228, 118, 67, 0.846);
+}
+#input{
+    border-radius: 15px;
+    height: 40px;
+    width: 300px;
+    padding: 5px; 
+    border-style: double;
+    border-color: rgb(70, 8, 158);
+}
